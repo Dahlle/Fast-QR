@@ -7,5 +7,6 @@ I might add other browser support in the future
 
 
 
-
 Created by Isak Dahl
+# Known bugs
+	When generating a QR code of a URL that ends with # the QR image gets too large for the popup

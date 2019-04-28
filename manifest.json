@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Quick-QR",
+    "author": "Isak Dahl",
+    "description": "Generate a QR code of the current page",
+    "version": "1.0",
+    "minimum_chrome_version": "46",
+    "icons": {"128": "QQR.png" },
+    
+    
+    "browser_action":{
+        "default_icon": "Icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
